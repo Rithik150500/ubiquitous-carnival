@@ -1,0 +1,28 @@
+# FastAPI Web Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+
+# LangChain and Deep Agents
+langchain==0.1.6
+langchain-anthropic==0.1.4
+langgraph==0.0.20
+langchain-community==0.0.16
+
+# Document Processing
+PyMuPDF==1.23.8
+pdf2image==1.17.0
+Pillow==10.2.0
+pypdf==4.0.0
+
+# Database
+sqlalchemy==2.0.25
+aiosqlite==0.19.0
+
+# Utilities
+python-dotenv==1.0.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# CORS
+fastapi-cors==0.0.6
