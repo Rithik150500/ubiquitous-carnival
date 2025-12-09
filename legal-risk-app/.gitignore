@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+.env.local
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Data
+backend/data/documents/*.pdf
+backend/data/images/*.png
+backend/data/agent_workspace/
+
+# Node
+node_modules/
+.npm
+*.log
+npm-debug.log*
+
+# Frontend build
+frontend/dist/
+frontend/build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keep directory structure
+!backend/data/documents/.gitkeep
+!backend/data/images/.gitkeep
+!backend/data/agent_workspace/.gitkeep
